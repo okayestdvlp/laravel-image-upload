@@ -33,7 +33,7 @@
                         @if ($message = Session::get('success'))
                         <div class="alert alert-success alert-block"><strong>{{ $message }}</strong></div>
                         <br>
-                        <img src="images/{{ Session::get('image') }}">
+                        <img src="images/{{ Session::get('image') }}" class="img-fluid">
                         @endif
                 
                         @if (count($errors) > 0)
