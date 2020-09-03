@@ -1,0 +1,16 @@
+.wrapper {
+    text-align: center;
+    padding-top: 100px;
+}
+.wrapper-heading {
+    font-size: 36px;
+    line-height: 36px;
+    padding: 50px;
+}
+form {
+    margin-bottom: 35px;
+}
+form button {
+    margin-top: 10px;
+    width: 100%;
+}
